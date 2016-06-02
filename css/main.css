@@ -1,0 +1,229 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.navbar {
+    height: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.navbar .brand {
+    float: left;
+    width: 59%;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 17px;
+}
+
+.navbar .links {
+    float: right;
+    width: 41%;
+    margin-top: 14px;
+}
+
+.navbar .links li {
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 0 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.navbar .links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .links li.active > a,
+.navbar .links li > a:hover,
+.navbar .links li > a:focus {
+    color: #2ae5f9;
+    cursor: pointer;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.header {
+    background: url(../images/tech.png);
+    position: relative;
+}
+
+.header .overlay {
+    background: rgba(0,0,0,.3);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: 1;
+}
+
+.header .bx-wrapper {
+    height: 100%;
+}
+
+.header .bx-wrapper .bx-viewport {
+    box-shadow: none;
+    border: 0;
+    background: none;
+    height: 100% !important;
+    text-align: center;
+}
+
+.header .bxslider {
+    height: 100%;
+}
+
+.header .bxslider li {
+    display: block;
+    padding-top: 200px;
+}
+
+.header .bxslider li h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.header .bxslider li span {
+    color: #2ae5f9;
+}
+
+.header .bxslider li p {
+    line-height: 16px;
+}
+
+.header .bxslider .btn-defaultes {
+    padding: 12px 20px;
+    border: 1px solid #fff;
+    position: relative;
+    top: 50px;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgba(0,0,0,.6);
+    font-weight: 500;
+    margin: 0;
+    padding: 40px 0;
+}
+
+.services .item {
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 20px;
+}
+
+.services .item i {
+    color: #2ae5f9;
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.services .item .into {
+    float: left;
+    width: 71%;
+}
+
+.services .item .into h3 {
+    color: rgba(0,0,0,.6);
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.services .item .into p {
+    color: rgba(0,0,0,.6);
+}
+
+.container .garis {
+    border: 1px solid rgba(0,0,0,.1);
+} 
+
+/*our team*/
+
+.our-team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.our-team .box {
+    float: left;
+}
+
+.our-team .box:first-child {
+    width: 35%;
+}
+
+.our-team .box:not(:first-child) {
+    width: 14.20%;
+    margin-left: 2%;
+    position: relative;
+    transition: all 10s ease-in-out;
+}
+
+.our-team .box:not(:first-child) .overlay {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 183px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 100%;
+    display: none;
+}
+
+.our-team .box:not(:first-child):hover .overlay {
+    display: block;
+}
+
+.our-team .box:not(:first-child) img {
+    width: 100%;
+    height: 168px;
+    border-radius: 100%;
+}
+
+.our-team .box h2 {
+    font-size: 30px;
+    color: rgba(0,0,0,.6);
+    font-weight: 500;
+    margin: 0;
+}
+
+.our-team .box p {
+    color: #999;
+    line-height: 1.6;
+}
+
+
